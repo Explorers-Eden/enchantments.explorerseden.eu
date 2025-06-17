@@ -153,71 +153,11 @@ a.buttons:active {
   -webkit-animation-iteration-count: infinite;
 }
 
-.floating.book_vanilla {
+.floating.book {
   display: inline-block;
   width: 75px;
   height: 75px;
   background-image: url("https://cdn.modrinth.com/data/Kgm0Z8tP/b01a7a85ce25234750fd0d84cd6c1ed1950f16a9.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  opacity: .75;
-}
-.floating.book_1 {
-  display: inline-block;
-  width: 75px;
-  height: 75px;
-  background-image: url("https://enchantments.explorerseden.eu/items/enchanted_book_1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  opacity: .75;
-}
-.floating.book_2 {
-  display: inline-block;
-  width: 75px;
-  height: 75px;
-  background-image: url("https://enchantments.explorerseden.eu/items/enchanted_book_2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  opacity: .75;
-}
-.floating.book_3 {
-  display: inline-block;
-  width: 75px;
-  height: 75px;
-  background-image: url("https://enchantments.explorerseden.eu/items/enchanted_book_3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  opacity: .75;
-}
-.floating.book_4 {
-  display: inline-block;
-  width: 75px;
-  height: 75px;
-  background-image: url("https://enchantments.explorerseden.eu/items/enchanted_book_4.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  opacity: .75;
-}
-.floating.book_5 {
-  display: inline-block;
-  width: 75px;
-  height: 75px;
-  background-image: url("https://enchantments.explorerseden.eu/items/enchanted_book_5.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  opacity: .75;
-}
-.floating.book_curse {
-  display: inline-block;
-  width: 75px;
-  height: 75px;
-  background-image: url("https://enchantments.explorerseden.eu/items/enchanted_book_curse.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
