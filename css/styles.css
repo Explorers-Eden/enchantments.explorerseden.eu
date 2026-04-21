@@ -111,9 +111,10 @@ img { max-width: 100%; }
 }
 .toolbar__row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+  width: 100%;
 }
 .toolbar__row--top {
   justify-content: flex-start;
@@ -122,7 +123,7 @@ img { max-width: 100%; }
 }
 .search-wrap {
   position: relative;
-  flex: 1 1 420px;
+  flex: 0 1 42%;
   min-width: 280px;
   max-width: none;
 }
@@ -160,6 +161,8 @@ img { max-width: 100%; }
   white-space: nowrap;
   padding: 0 6px;
   flex: 0 0 auto;
+  margin-left: auto;
+  text-align: right;
 }
 .table-card {
   background: rgba(8, 18, 25, 0.34);
@@ -319,9 +322,13 @@ ul.inline-list {
 }
 .quick-filters {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 8px;
   align-items: center;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
 }
 .filter-chip {
   border: 1px solid rgba(255,255,255,.12);
@@ -441,6 +448,8 @@ ul.inline-list {
   background: rgba(255,255,255,.06);
   border: none;
   font-weight: inherit;
+  padding: 4px 8px;
+  gap: 0;
 }
 
 
