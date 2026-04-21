@@ -4,7 +4,6 @@ const state = {
   filtered: [],
   sortDirection: 'asc',
   activePack: 'All',
-  activeItem: 'All',
 };
 
 const tbody = document.querySelector('#data-table tbody');
@@ -13,15 +12,6 @@ const clearButton = document.getElementById('clear-search');
 const resultsCount = document.getElementById('results-count');
 const sortButton = document.querySelector('[data-sort="name"]');
 const quickFilters = document.getElementById('quick-filters');
-const itemFilters = document.getElementById('item-filters');
-
-const ITEM_FILTER_ORDER = [
-  'Helmet', 'Chestplate', 'Leggings', 'Boots', 'Elytra',
-  'Wolf Armor', 'Horse Armor', 'Nautilus Armor', 'Harness',
-  'Sword', 'Axe', 'Pickaxe', 'Netherite Pickaxe', 'Shovel', 'Hoe', 'Mace',
-  'Trident', 'Spear', 'Bow', 'Crossbow', 'Shield', 'Flint and Steel',
-  'Brush', 'Shears', 'Blaze Rod', 'Saddle', 'Scroll', 'Crown of Roots'
-];
 
 function normalizeAssetPaths(html) {
   return String(html || '').replaceAll('./items/', './assets/items/');
@@ -174,7 +164,7 @@ function renderTable(rows) {
     tr.appendChild(createCell(entry.name, 'name-cell'));
     tr.appendChild(createCell(entry.description, 'description-cell'));
     tr.appendChild(createCell(entry.maxLevel, 'level-cell'));
-    tr.appendChild(createCell(renderApplicableCell(entry.applicableHtml)));
+    tr.appendChild(createCell(renderApplicableCell(entry.applicableHtml, entry.applicableText)));
     tr.appendChild(createCell(listify(entry.incompatibilities)));
     tr.appendChild(createCell(listify(entry.lootSources)));
 
@@ -216,33 +206,6 @@ function renderQuickFilters() {
   });
 }
 
-function renderItemFilters() {
-  const itemSet = new Set();
-  state.enchantments.forEach((entry) => {
-    extractApplicableItems(entry).forEach((item) => {
-      if (item !== 'Any') itemSet.add(item);
-    });
-  });
-
-  const known = ITEM_FILTER_ORDER.filter((item) => itemSet.has(item));
-  const rest = [...itemSet].filter((item) => !ITEM_FILTER_ORDER.includes(item)).sort((a, b) => a.localeCompare(b));
-  const items = ['All', ...known, ...rest];
-
-  itemFilters.innerHTML = '';
-
-  items.forEach((itemName) => {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'filter-chip filter-chip--item' + (itemName === state.activeItem ? ' is-active' : '');
-    button.textContent = itemName;
-    button.addEventListener('click', () => {
-      state.activeItem = itemName;
-      renderItemFilters();
-      applyFilters();
-    });
-    itemFilters.appendChild(button);
-  });
-}
 
 function applyFilters() {
   const query = searchInput.value.trim().toLowerCase();
@@ -259,13 +222,9 @@ function applyFilters() {
       entry.dataPack?.name,
     ].join(' ').toLowerCase();
 
-    const applicableItems = extractApplicableItems(entry);
-
     const matchesQuery = haystack.includes(query);
     const matchesPack = state.activePack === 'All' || entry.dataPack?.name === state.activePack;
-    const matchesItem = state.activeItem === 'All' || applicableItems.includes(state.activeItem);
-
-    return matchesQuery && matchesPack && matchesItem;
+    return matchesQuery && matchesPack;
   });
 
   sortRows(false);
@@ -293,7 +252,6 @@ async function init() {
   state.enchantments = await response.json();
   state.filtered = [...state.enchantments];
   renderQuickFilters();
-  renderItemFilters();
   renderTable(state.filtered);
 }
 
@@ -309,12 +267,10 @@ searchInput.addEventListener('input', debounce(applyFilters));
 clearButton.addEventListener('click', () => {
   if (searchInput.value) {
     searchInput.value = '';
-  } else if (state.activePack !== 'All' || state.activeItem !== 'All') {
+  } else if (state.activePack !== 'All') {
     state.activePack = 'All';
-    state.activeItem = 'All';
     renderQuickFilters();
-    renderItemFilters();
-  }
+    }
   applyFilters();
   searchInput.focus();
 });

@@ -118,8 +118,7 @@ img { max-width: 100%; }
 .toolbar__row--top {
   justify-content: space-between;
 }
-.toolbar__row--filters,
-.toolbar__row--items {
+.toolbar__row--filters {
   align-items: flex-start;
 }
 .search-wrap {
@@ -447,15 +446,6 @@ ul.inline-list {
   font-weight: 700;
 }
 
-.quick-filters--items {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.filter-chip--item {
-  background: rgba(15, 27, 36, 0.76);
-}
 
 .description-cell {
   min-width: 0;
