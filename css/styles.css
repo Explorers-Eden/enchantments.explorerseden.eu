@@ -344,7 +344,6 @@ ul.inline-list {
 }
 
 
-/* v5 layout tightening */
 .page-shell {
   width: calc(100% - 20px);
   max-width: none;
@@ -427,7 +426,6 @@ ul.inline-list {
 }
 
 
-/* v6 final polish */
 .page-shell {
   width: calc(100% - 24px);
   padding: 18px 0 30px;
