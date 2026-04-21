@@ -16,14 +16,34 @@
 <body>
   <div class="backdrop" aria-hidden="true">
     <div class="floating-shapes">
-      <span class="floating table" style="top:66.6%;left:13.0%;animation-delay:-0.9s;"></span>
-      <span class="floating book" style="top:31.4%;left:33.5%;animation-delay:-4.8s;"></span>
-      <span class="floating book" style="top:76.5%;left:38.0%;animation-delay:-4.0s;"></span>
-      <span class="floating table" style="top:21.4%;left:14.0%;animation-delay:-2.8s;"></span>
-      <span class="floating book" style="top:58.1%;left:56.7%;animation-delay:-2.15s;"></span>
-      <span class="floating book" style="top:8.6%;left:72.7%;animation-delay:-1.9s;"></span>
-      <span class="floating table" style="top:31.3%;left:58.5%;animation-delay:-0.65s;"></span>
-      <span class="floating book" style="top:69.9%;left:81.4%;animation-delay:-0.4s;"></span>
+      <span class="floating axe" style="top:91.1%;left:39.1%;animation-delay:-0.87s;animation-duration:31.1s;--scale:0.85;"></span>
+      <span class="floating shield" style="top:7.5%;left:49.7%;animation-delay:-0.67s;animation-duration:24.9s;--scale:0.84;"></span>
+      <span class="floating book" style="top:53.8%;left:7.6%;animation-delay:-10.18s;animation-duration:33.2s;--scale:1.15;"></span>
+      <span class="floating shield" style="top:91.1%;left:56.2%;animation-delay:-7.14s;animation-duration:33.6s;--scale:0.83;"></span>
+      <span class="floating scroll" style="top:14.5%;left:41.4%;animation-delay:-9.73s;animation-duration:27.1s;--scale:1.11;"></span>
+      <span class="floating pickaxe" style="top:19.0%;left:56.7%;animation-delay:-11.5s;animation-duration:24.0s;--scale:1.1;"></span>
+      <span class="floating book" style="top:55.1%;left:60.2%;animation-delay:-8.94s;animation-duration:26.5s;--scale:1.23;"></span>
+      <span class="floating sword" style="top:57.0%;left:44.6%;animation-delay:-5.4s;animation-duration:30.7s;--scale:1.18;"></span>
+      <span class="floating table" style="top:9.7%;left:30.2%;animation-delay:-8.91s;animation-duration:23.5s;--scale:1.05;"></span>
+      <span class="floating shield" style="top:94.1%;left:13.1%;animation-delay:-7.53s;animation-duration:30.1s;--scale:0.88;"></span>
+      <span class="floating sword" style="top:41.6%;left:92.4%;animation-delay:-1.4s;animation-duration:26.9s;--scale:1.23;"></span>
+      <span class="floating scroll" style="top:31.5%;left:67.4%;animation-delay:-10.7s;animation-duration:27.3s;--scale:1.05;"></span>
+      <span class="floating scroll" style="top:10.8%;left:27.4%;animation-delay:-12.55s;animation-duration:19.0s;--scale:1.2;"></span>
+      <span class="floating axe" style="top:62.8%;left:95.4%;animation-delay:-14.79s;animation-duration:22.6s;--scale:1.01;"></span>
+      <span class="floating pickaxe" style="top:34.6%;left:90.4%;animation-delay:-6.4s;animation-duration:27.8s;--scale:1.07;"></span>
+      <span class="floating table" style="top:74.2%;left:14.2%;animation-delay:-4.46s;animation-duration:24.3s;--scale:1.28;"></span>
+      <span class="floating book" style="top:17.6%;left:39.8%;animation-delay:-5.0s;animation-duration:20.2s;--scale:1.04;"></span>
+      <span class="floating shield" style="top:28.2%;left:41.0%;animation-delay:-6.46s;animation-duration:32.1s;--scale:1.33;"></span>
+      <span class="floating table" style="top:9.8%;left:16.2%;animation-delay:-11.85s;animation-duration:18.2s;--scale:1.26;"></span>
+      <span class="floating table" style="top:26.7%;left:2.4%;animation-delay:-7.54s;animation-duration:23.9s;--scale:1.11;"></span>
+      <span class="floating table" style="top:66.9%;left:50.5%;animation-delay:-11.12s;animation-duration:28.8s;--scale:0.83;"></span>
+      <span class="floating scroll" style="top:75.3%;left:84.2%;animation-delay:-14.36s;animation-duration:24.3s;--scale:1.02;"></span>
+      <span class="floating book" style="top:47.3%;left:39.6%;animation-delay:-3.43s;animation-duration:33.8s;--scale:1.04;"></span>
+      <span class="floating book" style="top:34.0%;left:6.9%;animation-delay:-0.0s;animation-duration:20.4s;--scale:0.86;"></span>
+      <span class="floating axe" style="top:59.7%;left:8.6%;animation-delay:-3.74s;animation-duration:24.0s;--scale:1.15;"></span>
+      <span class="floating axe" style="top:58.6%;left:46.6%;animation-delay:-2.08s;animation-duration:25.8s;--scale:1.34;"></span>
+      <span class="floating sword" style="top:47.5%;left:10.1%;animation-delay:-1.84s;animation-duration:23.5s;--scale:0.95;"></span>
+      <span class="floating scroll" style="top:67.1%;left:50.5%;animation-delay:-3.69s;animation-duration:33.2s;--scale:1.0;"></span>
     </div>
   </div>
 
@@ -40,10 +60,13 @@
     </header>
 
     <section class="toolbar">
+      <div class="toolbar__main">
       <div class="search-wrap">
         <label class="sr-only" for="search-input">Search enchantments</label>
         <input type="search" id="search-input" placeholder="Search for any info on enchantments...">
         <button id="clear-search" type="button" aria-label="Clear search">×</button>
+      </div>
+      <div class="quick-filters" id="quick-filters" aria-label="Filter by data pack"></div>
       </div>
       <p id="results-count" class="results-count" aria-live="polite"></p>
     </section>

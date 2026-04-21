@@ -1,7 +1,9 @@
+
 const state = {
   enchantments: [],
   filtered: [],
   sortDirection: 'asc',
+  activePack: 'All',
 };
 
 const tbody = document.querySelector('#data-table tbody');
@@ -9,6 +11,7 @@ const searchInput = document.getElementById('search-input');
 const clearButton = document.getElementById('clear-search');
 const resultsCount = document.getElementById('results-count');
 const sortButton = document.querySelector('[data-sort="name"]');
+const quickFilters = document.getElementById('quick-filters');
 
 function normalizeAssetPaths(html) {
   return String(html || '').replaceAll('./items/', './assets/items/');
@@ -103,7 +106,6 @@ function renderTable(rows) {
 
   rows.forEach((entry) => {
     const tr = document.createElement('tr');
-
     tr.appendChild(createCell(entry.name, 'name-cell'));
     tr.appendChild(createCell(entry.description));
     tr.appendChild(createCell(entry.maxLevel, 'level-cell'));
@@ -124,7 +126,6 @@ function renderTable(rows) {
       packCell.textContent = entry.dataPack?.name || '—';
     }
     tr.appendChild(packCell);
-
     fragment.appendChild(tr);
   });
 
@@ -132,9 +133,27 @@ function renderTable(rows) {
   resultsCount.textContent = `${rows.length} enchantment${rows.length === 1 ? '' : 's'}`;
 }
 
+function renderQuickFilters() {
+  const packNames = ['All', ...new Set(state.enchantments.map((entry) => entry.dataPack?.name).filter(Boolean))];
+  quickFilters.innerHTML = '';
+
+  packNames.forEach((packName) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'filter-chip' + (packName === state.activePack ? ' is-active' : '');
+    button.textContent = packName;
+    button.addEventListener('click', () => {
+      state.activePack = packName;
+      renderQuickFilters();
+      applyFilters();
+    });
+    quickFilters.appendChild(button);
+  });
+}
+
 function applyFilters() {
   const query = searchInput.value.trim().toLowerCase();
-  clearButton.style.display = query ? 'block' : 'none';
+  clearButton.style.display = query ? 'block' : 'block';
 
   state.filtered = state.enchantments.filter((entry) => {
     const haystack = [
@@ -147,7 +166,10 @@ function applyFilters() {
       entry.dataPack?.name,
     ].join(' ').toLowerCase();
 
-    return haystack.includes(query);
+    const matchesQuery = haystack.includes(query);
+    const matchesPack = state.activePack === 'All' || entry.dataPack?.name === state.activePack;
+
+    return matchesQuery && matchesPack;
   });
 
   sortRows(false);
@@ -174,6 +196,7 @@ async function init() {
   if (!response.ok) throw new Error('Failed to fetch enchantments.json');
   state.enchantments = await response.json();
   state.filtered = [...state.enchantments];
+  renderQuickFilters();
   renderTable(state.filtered);
 }
 
@@ -187,7 +210,12 @@ const debounce = (fn, delay = 150) => {
 
 searchInput.addEventListener('input', debounce(applyFilters));
 clearButton.addEventListener('click', () => {
-  searchInput.value = '';
+  if (searchInput.value) {
+    searchInput.value = '';
+  } else if (state.activePack !== 'All') {
+    state.activePack = 'All';
+    renderQuickFilters();
+  }
   applyFilters();
   searchInput.focus();
 });
