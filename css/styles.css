@@ -68,9 +68,9 @@ img { max-width: 100%; }
   background-image: url("../assets/items/scroll.png");
 }
 .page-shell {
-  width: min(1400px, calc(100% - 20px));
+  width: min(1400px, calc(100% - 10px));
   margin: 0 auto;
-  padding: 26px 0 40px;
+  padding: 22px 0 36px;
 }
 .hero {
   display: flex;
@@ -151,7 +151,7 @@ img { max-width: 100%; }
   background: rgba(8, 18, 25, 0.34);
   border: 1px solid rgba(255,255,255,.10);
   border-radius: 20px;
-  padding: 8px;
+  padding: 4px;
   box-shadow: var(--shadow);
   backdrop-filter: blur(12px);
   overflow: hidden;
@@ -256,13 +256,13 @@ ul.inline-list {
   .enchantments-table { min-width: 920px; }
 }
 @media (max-width: 720px) {
-  .page-shell { width: calc(100% - 16px); padding-top: 16px; }
+  .page-shell { width: calc(100% - 10px); padding-top: 14px; }
   .hero { padding-top: 6px; }
   .hero__links { gap: 8px; }
   .button-link { font-size: .92rem; }
   .toolbar { align-items: stretch; }
   .results-count { width: 100%; }
-  .table-card { padding: 8px; }
+  .table-card { padding: 4px; }
 }
 
 .backdrop {
@@ -336,7 +336,7 @@ ul.inline-list {
 }
 .enchantments-table tbody tr { background: rgba(21, 31, 39, 0.62); }
 .enchantments-table tbody tr:hover { background: rgba(30, 42, 51, 0.76); }
-.enchantments-table th, .enchantments-table td { padding-left: 7px; padding-right: 7px; }
+.enchantments-table th, .enchantments-table td { padding-left: 4px; padding-right: 4px; }
 .inline-list { padding-left: 16px; }
 @media (max-width: 900px) {
   .toolbar__main { width: 100%; }

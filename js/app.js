@@ -130,7 +130,7 @@ function renderTable(rows) {
   });
 
   tbody.appendChild(fragment);
-  resultsCount.textContent = `${rows.length} enchantment${rows.length === 1 ? '' : 's'}`;
+  resultsCount.textContent = `${rows.length} ${rows.length === 1 ? 'Enchantment' : 'Enchantments'}`;
 }
 
 function renderQuickFilters() {
