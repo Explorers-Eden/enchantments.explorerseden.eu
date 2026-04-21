@@ -68,7 +68,7 @@ img { max-width: 100%; }
   background-image: url("../assets/items/scroll.png");
 }
 .page-shell {
-  width: min(1400px, calc(100% - 10px));
+  width: min(1500px, calc(100% - 22px));
   margin: 0 auto;
   padding: 22px 0 36px;
 }
@@ -77,7 +77,7 @@ img { max-width: 100%; }
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 12px 0 24px;
+  padding: 12px 0 36px;
 }
 .hero__title {
   width: min(540px, 82vw);
@@ -105,15 +105,27 @@ img { max-width: 100%; }
 .button-link:hover { background: var(--accent-hover); transform: translateY(-1px); }
 .toolbar {
   display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.toolbar__row {
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   gap: 10px;
-  margin-bottom: 12px;
+}
+.toolbar__row--top {
+  justify-content: space-between;
+}
+.toolbar__row--filters,
+.toolbar__row--items {
+  align-items: flex-start;
 }
 .search-wrap {
   position: relative;
-  width: min(560px, 100%);
+  flex: 1 1 560px;
+  max-width: 760px;
 }
 .search-wrap input {
   width: 100%;
@@ -145,7 +157,9 @@ img { max-width: 100%; }
 .results-count {
   margin: 0;
   color: var(--muted);
-  font-weight: 500;
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 0 6px;
 }
 .table-card {
   background: rgba(8, 18, 25, 0.34);
@@ -190,10 +204,10 @@ img { max-width: 100%; }
   backdrop-filter: blur(12px);
 }
 .enchantments-table thead th:nth-child(1) { width: 13%; }
-.enchantments-table thead th:nth-child(2) { width: 22%; }
+.enchantments-table thead th:nth-child(2) { width: 27%; }
 .enchantments-table thead th:nth-child(3) { width: 8%; text-align: center; }
-.enchantments-table thead th:nth-child(4) { width: 17%; }
-.enchantments-table thead th:nth-child(5) { width: 16%; }
+.enchantments-table thead th:nth-child(4) { width: 15%; }
+.enchantments-table thead th:nth-child(5) { width: 14%; }
 .enchantments-table thead th:nth-child(6) { width: 14%; }
 .enchantments-table thead th:nth-child(7) { width: 10%; }
 .enchantments-table td {
@@ -344,6 +358,7 @@ ul.inline-list {
 }
 
 
+/* v5 layout tightening */
 .page-shell {
   width: calc(100% - 20px);
   max-width: none;
@@ -422,5 +437,52 @@ ul.inline-list {
   .quick-filters {
     width: 100%;
     flex-basis: 100%;
+  }
+}
+
+
+.applicable-item--any {
+  background: linear-gradient(135deg, rgba(74, 126, 151, 0.92), rgba(98, 69, 158, 0.9));
+  border-color: rgba(255,255,255,.22);
+  font-weight: 700;
+}
+
+.quick-filters--items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-chip--item {
+  background: rgba(15, 27, 36, 0.76);
+}
+
+.description-cell {
+  min-width: 0;
+}
+
+@media (max-width: 1100px) {
+  .toolbar__row--top {
+    align-items: stretch;
+  }
+
+  .results-count {
+    padding-left: 2px;
+  }
+}
+
+@media (max-width: 800px) {
+  .search-wrap {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .toolbar__row--top {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .results-count {
+    white-space: normal;
   }
 }

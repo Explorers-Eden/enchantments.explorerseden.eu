@@ -4,6 +4,7 @@ const state = {
   filtered: [],
   sortDirection: 'asc',
   activePack: 'All',
+  activeItem: 'All',
 };
 
 const tbody = document.querySelector('#data-table tbody');
@@ -12,9 +13,50 @@ const clearButton = document.getElementById('clear-search');
 const resultsCount = document.getElementById('results-count');
 const sortButton = document.querySelector('[data-sort="name"]');
 const quickFilters = document.getElementById('quick-filters');
+const itemFilters = document.getElementById('item-filters');
+
+const ITEM_FILTER_ORDER = [
+  'Helmet', 'Chestplate', 'Leggings', 'Boots', 'Elytra',
+  'Wolf Armor', 'Horse Armor', 'Nautilus Armor', 'Harness',
+  'Sword', 'Axe', 'Pickaxe', 'Netherite Pickaxe', 'Shovel', 'Hoe', 'Mace',
+  'Trident', 'Spear', 'Bow', 'Crossbow', 'Shield', 'Flint and Steel',
+  'Brush', 'Shears', 'Blaze Rod', 'Saddle', 'Scroll', 'Crown of Roots'
+];
 
 function normalizeAssetPaths(html) {
   return String(html || '').replaceAll('./items/', './assets/items/');
+}
+
+function titleCaseWords(value) {
+  return String(value || '')
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+    .join(' ');
+}
+
+function extractApplicableItems(entry) {
+  const raw = String(entry.applicableText || '').trim();
+  if (!raw) return [];
+
+  if (raw.toLowerCase() === 'any') {
+    return ['Any'];
+  }
+
+  const html = normalizeAssetPaths(entry.applicableHtml || '');
+  const labelMatches = [...html.matchAll(/>\s*([^<]+?)\s*(?=<|$)/g)]
+    .map((m) => m[1].trim())
+    .filter(Boolean)
+    .map((s) => titleCaseWords(s.replace(/\s+/g, ' ')));
+
+  if (labelMatches.length) {
+    return [...new Set(labelMatches)];
+  }
+
+  return raw
+    .split(/\s*,\s*/)
+    .map((v) => titleCaseWords(v.trim()))
+    .filter(Boolean);
 }
 
 function listify(value) {
@@ -37,10 +79,27 @@ function listify(value) {
   return ul;
 }
 
+function createAnyPill() {
+  const pill = document.createElement('span');
+  pill.className = 'applicable-item applicable-item--any';
+  const text = document.createElement('span');
+  text.textContent = 'Any';
+  pill.appendChild(text);
+  return pill;
+}
+
 function renderApplicableCell(html) {
+  const normalized = normalizeAssetPaths(html);
+  if (normalized.trim() === '<b>Any</b>' || normalized.trim().toLowerCase() === 'any') {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'applicable-cell';
+    wrapper.appendChild(createAnyPill());
+    return wrapper;
+  }
+
   const wrapper = document.createElement('div');
   wrapper.className = 'applicable-cell';
-  wrapper.innerHTML = normalizeAssetPaths(html);
+  wrapper.innerHTML = normalized;
 
   const nodes = Array.from(wrapper.childNodes);
   wrapper.innerHTML = '';
@@ -75,11 +134,17 @@ function renderApplicableCell(html) {
       continue;
     }
 
+    if (node.nodeType === Node.ELEMENT_NODE && /^b$/i.test(node.tagName) && node.textContent.trim().toLowerCase() === 'any') {
+      wrapper.appendChild(createAnyPill());
+      continue;
+    }
+
     if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
+      const textValue = node.textContent.trim();
       const pill = document.createElement('span');
-      pill.className = 'applicable-item';
+      pill.className = 'applicable-item' + (textValue.toLowerCase() === 'any' ? ' applicable-item--any' : '');
       const text = document.createElement('span');
-      text.textContent = node.textContent.trim();
+      text.textContent = textValue;
       pill.appendChild(text);
       wrapper.appendChild(pill);
     }
@@ -107,7 +172,7 @@ function renderTable(rows) {
   rows.forEach((entry) => {
     const tr = document.createElement('tr');
     tr.appendChild(createCell(entry.name, 'name-cell'));
-    tr.appendChild(createCell(entry.description));
+    tr.appendChild(createCell(entry.description, 'description-cell'));
     tr.appendChild(createCell(entry.maxLevel, 'level-cell'));
     tr.appendChild(createCell(renderApplicableCell(entry.applicableHtml)));
     tr.appendChild(createCell(listify(entry.incompatibilities)));
@@ -151,6 +216,34 @@ function renderQuickFilters() {
   });
 }
 
+function renderItemFilters() {
+  const itemSet = new Set();
+  state.enchantments.forEach((entry) => {
+    extractApplicableItems(entry).forEach((item) => {
+      if (item !== 'Any') itemSet.add(item);
+    });
+  });
+
+  const known = ITEM_FILTER_ORDER.filter((item) => itemSet.has(item));
+  const rest = [...itemSet].filter((item) => !ITEM_FILTER_ORDER.includes(item)).sort((a, b) => a.localeCompare(b));
+  const items = ['All', ...known, ...rest];
+
+  itemFilters.innerHTML = '';
+
+  items.forEach((itemName) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'filter-chip filter-chip--item' + (itemName === state.activeItem ? ' is-active' : '');
+    button.textContent = itemName;
+    button.addEventListener('click', () => {
+      state.activeItem = itemName;
+      renderItemFilters();
+      applyFilters();
+    });
+    itemFilters.appendChild(button);
+  });
+}
+
 function applyFilters() {
   const query = searchInput.value.trim().toLowerCase();
   clearButton.style.display = query ? 'block' : 'block';
@@ -166,10 +259,13 @@ function applyFilters() {
       entry.dataPack?.name,
     ].join(' ').toLowerCase();
 
+    const applicableItems = extractApplicableItems(entry);
+
     const matchesQuery = haystack.includes(query);
     const matchesPack = state.activePack === 'All' || entry.dataPack?.name === state.activePack;
+    const matchesItem = state.activeItem === 'All' || applicableItems.includes(state.activeItem);
 
-    return matchesQuery && matchesPack;
+    return matchesQuery && matchesPack && matchesItem;
   });
 
   sortRows(false);
@@ -197,6 +293,7 @@ async function init() {
   state.enchantments = await response.json();
   state.filtered = [...state.enchantments];
   renderQuickFilters();
+  renderItemFilters();
   renderTable(state.filtered);
 }
 
@@ -212,9 +309,11 @@ searchInput.addEventListener('input', debounce(applyFilters));
 clearButton.addEventListener('click', () => {
   if (searchInput.value) {
     searchInput.value = '';
-  } else if (state.activePack !== 'All') {
+  } else if (state.activePack !== 'All' || state.activeItem !== 'All') {
     state.activePack = 'All';
+    state.activeItem = 'All';
     renderQuickFilters();
+    renderItemFilters();
   }
   applyFilters();
   searchInput.focus();
