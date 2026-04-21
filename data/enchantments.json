@@ -1,0 +1,2160 @@
+[
+  {
+    "name": "Anchor",
+    "description": "Anchors the entity in place when not ridden",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/harness.png\" width=\"32px\"/> Harness <img src=\"./items/saddle.png\" width=\"32px\"/> Saddle",
+    "applicableText": "Harness Saddle",
+    "incompatibilities": "-",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Surfer",
+    "description": "Increases swimming speed of entities",
+    "maxLevel": "3",
+    "applicableHtml": "<img src=\"./items/saddle.png\" width=\"32px\"/> Saddle",
+    "applicableText": "Saddle",
+    "incompatibilities": "-",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Plow",
+    "description": "Tills a larger area with left-click",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe",
+    "applicableText": "Hoe",
+    "incompatibilities": "Silk Touch, Efficiency, Regrowth",
+    "lootSources": "Enchanting Table, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Regrowth",
+    "description": "Replants fully grown Crops when harvested",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe",
+    "applicableText": "Hoe",
+    "incompatibilities": "Silk Touch, Efficiency, Plow",
+    "lootSources": "Enchanting Table, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Ownership",
+    "description": "Wearer takes damage when their pets do",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "-",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Caravan",
+    "description": "Wearer gets slowed down when leashing entities",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "-",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Propeller",
+    "description": "Increases flying speed of Happy Ghasts",
+    "maxLevel": "5",
+    "applicableHtml": "<img src=\"./items/harness.png\" width=\"32px\"/> Harness",
+    "applicableText": "Harness",
+    "incompatibilities": "-",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Ping Tag",
+    "description": "Indicates that an entity has been hit by playing a ping sound",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/mace.png\" width=\"32px\"/> Mace <img src=\"./items/trident.png\" width=\"32px\"/> Trident <img src=\"./items/bow.png\" width=\"32px\"/> Bow <img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Sword Spear Axe Mace Trident Bow Crossbow",
+    "incompatibilities": "-",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Lingering",
+    "description": "Leaves behind a lingering cloud with the effect of the shot tipped arrow when hitting a block",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/bow.png\" width=\"32px\"/> Bow <img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Bow Crossbow",
+    "incompatibilities": "-",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Trial Aura",
+    "description": "Applies a cosmetic trial aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Sticky Aura",
+    "description": "Applies a cosmetic sticky aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Sparking Aura",
+    "description": "Applies a cosmetic sparking aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Pale Aura",
+    "description": "Applies a cosmetic pale aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Ominous Aura",
+    "description": "Applies a cosmetic ominous aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Muddy Aura",
+    "description": "Applies a cosmetic muddy aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Lush Aura",
+    "description": "Applies a cosmetic lush aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Lovely Aura",
+    "description": "Applies a cosmetic lovely aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Heavenly Aura",
+    "description": "Applies a cosmetic heavenly aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Flaming Aura",
+    "description": "Applies a cosmetic flaming aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Ender Aura",
+    "description": "Applies a cosmetic ender aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Enchanted Aura",
+    "description": "Applies a cosmetic enchanted aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Echoing Aura",
+    "description": "Applies a cosmetic echoing aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Aquatic Aura",
+    "description": "Applies a cosmetic aquatic aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Angry Aura",
+    "description": "Applies a cosmetic angry aura to the wearer, it's pets and most of the projectiles shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Any Aura Enchantment",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Guard",
+    "description": "Allows for blocking melee attacks with the enchanted item",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Axe Mace",
+    "incompatibilities": "Sharpness, Any Aspect Enchantment, Pacifier",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Gallop",
+    "description": "The equipped mob gets a speed boost when ridden",
+    "maxLevel": "3",
+    "applicableHtml": "<img src=\"./items/saddle.png\" width=\"32px\"/> Saddle",
+    "applicableText": "Saddle",
+    "incompatibilities": "-",
+    "lootSources": "Random Loot, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Cushion",
+    "description": "Protection against damage when flying into walls",
+    "maxLevel": "4",
+    "applicableHtml": "<img src=\"./items/elytra.png\" width=\"32px\"/> Elytra",
+    "applicableText": "Elytra",
+    "incompatibilities": "Safe Landing",
+    "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Wither Protection",
+    "description": "Protection against Wither Effect and Wither Skulls",
+    "maxLevel": "4",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "Thorns Protection, Night Protection, Nether Protection, End Protection, Day Protection, Protection, Fire Protection, Blast Protection, Projectile Protection",
+    "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Thorns Protection",
+    "description": "Protection against Thorns including Sweet Berry Bushes and Cactus",
+    "maxLevel": "4",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "Wither Protection, Night Protection, Nether Protection, End Protection, Day Protection, Protection, Fire Protection, Blast Protection, Projectile Protection",
+    "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Ghost Spirit",
+    "description": "Makes your Wolf almost invincible but it also has 0 attack damage",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"wolf_armor\" src=\"./items/wolf_armor.png\" width=\"32px\"/> Wolf Armor",
+    "applicableText": "Wolf Armor",
+    "incompatibilities": "Boar Spirit, Bear Spirit, Scorpion Spirit",
+    "lootSources": "Treasure, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Implosion",
+    "description": "Pulls in hostile entities within a 5 block radius",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/bow.png\" width=\"32px\"/> Bow <img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Bow Crossbow",
+    "incompatibilities": "Infinity, Bomber, Ender Shot, Forge Shot, Evokers Wrath, Lightning Bolt, Flare, Sting",
+    "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Heroes Crown",
+    "description": "Gives the wearer the Hero of the Village effect but drains durability",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Night Vision",
+    "lootSources": "Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Trial Runner",
+    "description": "Gives the wearer the Trial Omen effect but drains durability",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "-",
+    "lootSources": "Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Leaf Jumper",
+    "description": "Spawns Leaf Blocks when jumping in the air whenever there is enough room below",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Invisibility Cloak, Soul Speed, Sonic, Sand Speed, End Speed, Path Speed, Strafe",
+    "lootSources": "Enchanting Table, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Strafe",
+    "description": "Sprint + Left/Right lets you strafe fast in that direction",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Invisibility Cloak, Soul Speed, Sonic, Sand Speed, End Speed, Path Speed, Leaf Jumper",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Undying",
+    "description": "Turns the tool into a Totem of Undying",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"hoe\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe<img alt=\"pickaxe\" src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe<img alt=\"shovel\" src=\"./items/shovel.png\" width=\"32px\"/> Shovel<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"flint_steel\" src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img alt=\"shears\" src=\"./items/shears.png\" width=\"32px\"/> Shears<img alt=\"brush\" src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe Hoe Pickaxe Shovel Sword Spear Flint and Steel Shears Brush",
+    "incompatibilities": "-",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Scent",
+    "description": "Wolves make nearby entities glow when they move",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"wolf_armor\" src=\"./items/wolf_armor.png\" width=\"32px\"/> Wolf Armor",
+    "applicableText": "Wolf Armor",
+    "incompatibilities": "Fetch",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Fetch",
+    "description": "Small chance for a Wolf to fetch loot",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"wolf_armor\" src=\"./items/wolf_armor.png\" width=\"32px\"/> Wolf Armor",
+    "applicableText": "Wolf Armor",
+    "incompatibilities": "Scent",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Boar Spirit",
+    "description": "Infuses a Wolf with the powers of a Boar",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"wolf_armor\" src=\"./items/wolf_armor.png\" width=\"32px\"/> Wolf Armor",
+    "applicableText": "Wolf Armor",
+    "incompatibilities": "Bear Spirit, Scorpion Spirit, Ghost Spirit",
+    "lootSources": "Treasure, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Bear Spirit",
+    "description": "Infuses a Wolf with the powers of a Bear",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"wolf_armor\" src=\"./items/wolf_armor.png\" width=\"32px\"/> Wolf Armor",
+    "applicableText": "Wolf Armor",
+    "incompatibilities": "Boar Spirit, Scorpion Spirit, Ghost Spirit",
+    "lootSources": "Treasure, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Scorpion Spirit",
+    "description": "Infuses a Wolf with the powers of a Scorpion",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"wolf_armor\" src=\"./items/wolf_armor.png\" width=\"32px\"/> Wolf Armor",
+    "applicableText": "Wolf Armor",
+    "incompatibilities": "Bear Spirit, Boar Spirit, Ghost Spirit",
+    "lootSources": "Treasure, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Flare",
+    "description": "Arrows explode like fireworks when they land or hit an entity",
+    "maxLevel": "5",
+    "applicableHtml": "<img src=\"./items/bow.png\" width=\"32px\"/> Bow <img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Bow Crossbow",
+    "incompatibilities": "Infinity, Bomber, Sting, Forge Shot, Ender Shot, Evokers Wrath, Lightning Bolt",
+    "lootSources": "Enchanting Table, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Day Protection",
+    "description": "Twice the damage protection than the vanilla enchant but works only at day time (overworld)",
+    "maxLevel": "4",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "Thorns Protection, Night Protection, Nether Protection, End Protection, Protection, Fire Protection, Blast Protection, Projectile Protection, Wither Protection",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Night Protection",
+    "description": "Twice the damage protection than the vanilla enchant but works only at night time (overworld)",
+    "maxLevel": "4",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "Thorns Protection, Day Protection, Nether Protection, End Protection, Protection, Fire Protection, Blast Protection, Projectile Protection, Wither Protection",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Nether Protection",
+    "description": "Twice the damage protection than the vanilla enchant but works only in the nether",
+    "maxLevel": "4",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "Thorns Protection, Night Protection, Day Protection, End Protection, Protection, Fire Protection, Blast Protection, Projectile Protection, Wither Protection",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "End Protection",
+    "description": "Twice the damage protection than the vanilla enchant but works only the end",
+    "maxLevel": "4",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "Thorns Protection, Night Protection, Nether Protection, Day Protection, Protection, Fire Protection, Blast Protection, Projectile Protection, Wither Protection",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Creeper Alloy",
+    "description": "Causes an explosion when you are hit",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Bulletproof, Fire Alloy, Ice Alloy, Darkness Alloy, Shulker Shell",
+    "lootSources": "Enchanting Table, Random Loot, Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Fire Alloy",
+    "description": "Ignites attacking entities",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Bulletproof, Creeper Alloy, Ice Alloy, Darkness Alloy, Shulker Shell, Ocean Heart",
+    "lootSources": "Enchanting Table, Random Loot, Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Ice Alloy",
+    "description": "Freezes attacking entities",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Bulletproof, Fire Alloy, Creeper Alloy, Darkness Alloy, Shulker Shell, Ocean Heart",
+    "lootSources": "Enchanting Table, Random Loot, Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Darkness Alloy",
+    "description": "Gives attacking entities darkness effect",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Bulletproof, Fire Alloy, Ice Alloy, Creeper Alloy, Shulker Shell",
+    "lootSources": "Enchanting Table, Random Loot, Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Shulker Shell",
+    "description": "Firework, Tridents, (Spectral) Arrows shot at the wearer fall to the ground when wearer stands still",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Bulletproof, Fire Alloy, Ice Alloy, Darkness Alloy, Creeper Alloy",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Bunny Hop",
+    "description": "Let's you jump higher",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings",
+    "applicableText": "Leggings",
+    "incompatibilities": "Enderscape, Swift Sneak",
+    "lootSources": "Enchanting Table, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "End Speed",
+    "description": "Increases movement speed when in the end",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Invisibility Cloak, Soul Speed, Path Speed, Sonic, Sand Speed, Strafe, Leaf Jumper, Web Walker",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Path Speed",
+    "description": "Increases movement speed when on dirth path blocks",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Invisibility Cloak, Soul Speed, Sonic, Sand Speed, End Speed, Strafe, Leaf Jumper, Web Walker",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Sand Speed",
+    "description": "Increases movement speed when on sand",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Invisibility Cloak, Soul Speed, End Speed, Path Speed, Sonic, Strafe, Leaf Jumper, Web Walker",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Crispbread",
+    "description": "Saturation effect when equipped",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"Shield\" src=\"./items/shield.png\" width=\"32px\"/> Shield",
+    "applicableText": "Shield",
+    "incompatibilities": "Cleansing, Rejuvenation, Hardened, Ominous Healing",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Crop Dance",
+    "description": "Sneak-Dance to let crops around you grow",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Magma Walker, Summer Walker, Grass Walker, Electric Walker, Frost Walker, Depth Strider",
+    "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Ender Shot",
+    "description": "Teleports hit entities on the surface randomly",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/bow.png\" width=\"32px\"/> Bow <img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Bow Crossbow",
+    "incompatibilities": "Infinity, Bomber, Sting, Forge Shot, Evokers Wrath, Lightning Bolt, Implosion, Flare",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Enderscape",
+    "description": "You teleport randomly in a 5 block radius when hit on the surface",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings",
+    "applicableText": "Leggings",
+    "incompatibilities": "Swift Sneak, Bunny Hop",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Evokers Wrath",
+    "description": "Arrows spawn Evoker Fangs when they land",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Crossbow",
+    "incompatibilities": "Quick Charge, Infinity, Sting, Lightning Bolt, Forge Shot, Ender Shot, Implosion, Flare",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Forge Shot",
+    "description": "Arrows spawn falling Anvils when they land",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/bow.png\" width=\"32px\"/> Bow <img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Bow Crossbow",
+    "incompatibilities": "Quick Charge, Infinity, Sting, Lightning Bolt, Evokers Wrath, Ender Shot, Implosion, Flare",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Hardened",
+    "description": "Extra armor when equipped",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"Shield\" src=\"./items/shield.png\" width=\"32px\"/> Shield",
+    "applicableText": "Shield",
+    "incompatibilities": "Crispbread, Rejuvenation, Cleansing, Ominous Healing",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Phantom Menace",
+    "description": "Increases Damage against Phantoms",
+    "maxLevel": "5",
+    "applicableHtml": "<img src=\"./items/bow.png\" width=\"32px\"/> Bow <img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Bow Crossbow",
+    "incompatibilities": "-",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Pufferfish",
+    "description": "Has a chance to spawn a pufferfish when the hit entity is in water",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Trident",
+    "incompatibilities": "Riptide, Channeling, Switch, Ominous Rain, Sea Breeze",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Rabbit's Foot",
+    "description": "Increases luck attribute",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "-",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Gluttony",
+    "description": "Sucks up items in a 2-10 block radius depending on the level",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"hoe\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe<img alt=\"pickaxe\" src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe<img alt=\"shovel\" src=\"./items/shovel.png\" width=\"32px\"/> Shovel<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"flint_steel\" src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img alt=\"shears\" src=\"./items/shears.png\" width=\"32px\"/> Shears<img alt=\"brush\" src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe Hoe Pickaxe Shovel Sword Spear Flint and Steel Shears Brush",
+    "incompatibilities": "Crab Claw, Curse of Welfare",
+    "lootSources": "Enchanting Table, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Handyman",
+    "description": "Keeps repair cost low",
+    "maxLevel": "1",
+    "applicableHtml": "<b>Any</b>",
+    "applicableText": "Any",
+    "incompatibilities": "Mending, Sacrifice, Curse of Crystal, Safekeep",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Sacrifice",
+    "description": "Repairs Tools/Armor when wearer gets hit by entities",
+    "maxLevel": "5",
+    "applicableHtml": "<b>Any</b>",
+    "applicableText": "Any",
+    "incompatibilities": "Mending, Handyman, Safekeep, Curse of Crystal",
+    "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Leech",
+    "description": "Regenerate health when hitting entities",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> MAce",
+    "applicableText": "Sword Spear Axe Trident MAce",
+    "incompatibilities": "Heavy",
+    "lootSources": "Enchanting Table, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Night Vision",
+    "description": "Gives the wearer night vision effect when it's nighttime",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Heroes Crown",
+    "lootSources": "Enchanting Table, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Pacifier",
+    "description": "Has a chance to make hit entities harmless for a short period",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment",
+    "lootSources": "Enchanting Table, Treasure, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Bane of Bosses",
+    "description": "Inflicts more damage to boss mobs",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Axe Sword Spear Mace Trident",
+    "incompatibilities": "Bane of Netherborn, Bane of Raiders, Bane of Endborn, Swift Slash, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach, Blunt",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Bane of Raiders",
+    "description": "Inflicts more damage to raid mobs",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Axe Sword Spear Mace Trident",
+    "incompatibilities": "Bane of Netherborn, Bane of Bosses, Bane of Endborn, Swift Slash, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach, Blunt",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Bane of Netherborn",
+    "description": "Inflicts more damage to nether mobs",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Axe Sword Spear Mace Trident",
+    "incompatibilities": "Bane of Bosses, Bane of Raiders, Bane of Endborn, Swift Slash, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach, Blunt",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Bane of Endborn",
+    "description": "Inflicts more damage to end mobs",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Axe Sword Spear Mace Trident",
+    "incompatibilities": "Bane of Bosses, Bane of Raiders, Bane of Netherborn, Swift Slash, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Infested Aspect",
+    "description": "Applies infested effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Wind Aspect",
+    "description": "Applies wind charged effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier, Heavy",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Levitation Aspect",
+    "description": "Applies levitation effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier, Heavy",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Oozing Aspect",
+    "description": "Applies oozing effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Poison Aspect",
+    "description": "Applies poison effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Slowness Aspect",
+    "description": "Applies slowness effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Weakness Aspect",
+    "description": "Applies weakness effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Weaving Aspect",
+    "description": "Applies weaving effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books, Arachne Boss Drop (Katters Structures)",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Wither Aspect",
+    "description": "Applies wither effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Hunger Aspect",
+    "description": "Applies hunger effect to hit entities",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Sword Spear Mace",
+    "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
+    "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Bomber",
+    "description": "Arrows explode when an entity was hit",
+    "maxLevel": "2",
+    "applicableHtml": "<img src=\"./items/bow.png\" width=\"32px\"/> Bow <img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Bow Crossbow",
+    "incompatibilities": "Infinity, Sting, Forge Shot, Ender Shot, Evokers Wrath, Lightning Bolt, Implosion, Flare",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Bulletproof",
+    "description": "10% chance of protecting the wearer from shulker bullets",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Creeper Alloy, Fire Alloy, Ice Alloy, Darkness Alloy",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Ominous Healing",
+    "description": "Has a 60% chance to spawn a healing lingering potion when hit while having 3.5 hearts or less",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"Shield\" src=\"./items/shield.png\" width=\"32px\"/> Shield",
+    "applicableText": "Shield",
+    "incompatibilities": "Crispbread, Rejuvenation, Hardened, Cleansing",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Ominous Rain",
+    "description": "Summons ominous projectiles when projectile lands",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Trident",
+    "incompatibilities": "Riptide, Channeling, Switch, Pufferfish, Sea Breeze",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Switch",
+    "description": "Swaps places with hit entity",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Trident",
+    "incompatibilities": "Riptide, Channeling, Ominous Rain, Pufferfish, Sea Breeze",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Haste",
+    "description": "Applies Haste effect when in mainhand equipped",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"hoe\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe<img alt=\"pickaxe\" src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe<img alt=\"shovel\" src=\"./items/shovel.png\" width=\"32px\"/> Shovel<img alt=\"shears\" src=\"./items/shears.png\" width=\"32px\"/> Shears",
+    "applicableText": "Axe Hoe Pickaxe Shovel Shears",
+    "incompatibilities": "Fortune",
+    "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Safe Landing",
+    "description": "Increases safe landing height",
+    "maxLevel": "5",
+    "applicableHtml": "<img src=\"./items/elytra.png\" width=\"32px\"/> Elytra",
+    "applicableText": "Elytra",
+    "incompatibilities": "Cushion",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Scholar of Blocks",
+    "description": "More experience from mining blocks",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"hoe\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe<img alt=\"pickaxe\" src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe<img alt=\"shovel\" src=\"./items/shovel.png\" width=\"32px\"/> Shovel<img alt=\"flint_steel\" src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img alt=\"shears\" src=\"./items/shears.png\" width=\"32px\"/> Shears<img alt=\"brush\" src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe Hoe Pickaxe Shovel Flint and Steel Shears Brush",
+    "incompatibilities": "Scholar of Mobs",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Scholar of Mobs",
+    "description": "More experience from killing entities",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Axe Sword Spear Mace Trident",
+    "incompatibilities": "Scholar of Blocks",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Poppy Peace",
+    "description": "Hit Iron Golems don't get angry towards you",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Axe Sword Spear Mace Trident",
+    "incompatibilities": "Pickpocket, Heavy",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Pickpocket",
+    "description": "Right-click to steal items from villager inventories (Inventory Items are things they pick up not what they trade!)",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Poppy Peace",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Rejuvenation",
+    "description": "Increases max health",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"Shield\" src=\"./items/shield.png\" width=\"32px\"/> Shield",
+    "applicableText": "Shield",
+    "incompatibilities": "Crispbread, Cleansing, Hardened, Ominous Healing",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Seeker",
+    "description": "Highlights Items in a 4-12 block radius depending on the level",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "-",
+    "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Sea Breeze",
+    "description": "Wind Charges hit entities away when hit by thrown trident",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Trident",
+    "incompatibilities": "Riptide, Channeling, Switch, Ominous Rain, Pufferfish",
+    "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Boltbringer",
+    "description": "Summons lightning when entity was hit by a player which at least fell 8 blocks",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Mace",
+    "incompatibilities": "-",
+    "lootSources": "Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Sonic",
+    "description": "Boosts walking speed",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Invisibility Cloak, Soul Speed, End Speed, Path Speed, Sand Speed, Strafe, Leaf Jumper, Web Walker",
+    "lootSources": "Enchanting Table, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Crab Claw",
+    "description": "Increases block/entity interaction range",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"hoe\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe<img alt=\"pickaxe\" src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe<img alt=\"shovel\" src=\"./items/shovel.png\" width=\"32px\"/> Shovel<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"flint_steel\" src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img alt=\"shears\" src=\"./items/shears.png\" width=\"32px\"/> Shears<img alt=\"brush\" src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe Hoe Pickaxe Shovel Sword Spear Flint and Steel Shears Brush",
+    "incompatibilities": "Curse of Reach, Gluttony",
+    "lootSources": "Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Growth",
+    "description": "Increases wearers scale and step height",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate<img alt=\"horse_armor\" src=\"./items/elytra.png\" width=\"32px\"/> Eltyra<img alt=\"horse_armor\" src=\"./items/horse_armor.png\" width=\"32px\"/> Horse Armor<img alt=\"horse_armor\" src=\"./items/wolf_armor.png\" width=\"32px\"/> Wolf Armor <img alt=\"horse_armor\" src=\"./items/nautilus_armor.png\" width=\"32px\"/> Nautilus Armor",
+    "applicableText": "Chestplate Eltyra Horse Armor Wolf Armor Nautilus Armor",
+    "incompatibilities": "Shrinkage",
+    "lootSources": "Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Shrinkage",
+    "description": "Decreases wearers scale and step height",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate<img alt=\"horse_armor\" src=\"./items/elytra.png\" width=\"32px\"/> Eltyra<img alt=\"horse_armor\" src=\"./items/horse_armor.png\" width=\"32px\"/> Horse Armor<img alt=\"horse_armor\" src=\"./items/wolf_armor.png\" width=\"32px\"/> Wolf Armor<img alt=\"horse_armor\" src=\"./items/harness.png\" width=\"32px\"/> Harness <img alt=\"horse_armor\" src=\"./items/nautilus_armor.png\" width=\"32px\"/> Nautilus Armor",
+    "applicableText": "Chestplate Eltyra Horse Armor Wolf Armor Harness Nautilus Armor",
+    "incompatibilities": "Growth",
+    "lootSources": "Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Pegasus",
+    "description": "Entities start flying up to 30 blocks above the Y-level they were mounted. Dismounting gives slow falling to land safely",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"horse_armor\" src=\"./items/horse_armor.png\" width=\"32px\"/> Horse Armor",
+    "applicableText": "Horse Armor",
+    "incompatibilities": "Moonwalk",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Swift Slash",
+    "description": "Increases attack speed",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Axe Sword Spear Mace Trident",
+    "incompatibilities": "Bane of Netherborn, Bane of Raiders, Bane of Bosses, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach, Heavy",
+    "lootSources": "Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Moonwalk",
+    "description": "Reduces gravity when equipped",
+    "maxLevel": "3",
+    "applicableHtml": "<img src=\"./items/elytra.png\" width=\"32px\"/> Elytra<img alt=\"horse_armor\" src=\"./items/horse_armor.png\" width=\"32px\"/> Horse Armor",
+    "applicableText": "Elytra Horse Armor",
+    "incompatibilities": "-",
+    "lootSources": "Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Invisibility Cloak",
+    "description": "Crouching turns you invisible",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Sonic, Soul Speed, End Speed, Path Speed, Sand Speed, Strafe, Leaf Jumper",
+    "lootSources": "Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Cleansing",
+    "description": "Clears all effects but also drains durability",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"Shield\" src=\"./items/shield.png\" width=\"32px\"/> Shield",
+    "applicableText": "Shield",
+    "incompatibilities": "Crispbread, Rejuvenation, Hardened, Ominous Healing",
+    "lootSources": "Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Magma Walker",
+    "description": "Turns Lava into magma blocks when walking over it",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Crop Dance, Summer Walker, Grass Walker, Electric Walker, Frost Walker, Depth Strider",
+    "lootSources": "Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Grass Walker",
+    "description": "Turns dirt into grass blocks when walking over it",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Magma Walker, Summer Walker, Crop Dance, Electric Walker, Frost Walker, Depth Strider",
+    "lootSources": "Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Summer Walker",
+    "description": "Melts snow when walking over it",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Magma Walker, Crop Dance, Grass Walker, Electric Walker, Frost Walker, Depth Strider",
+    "lootSources": "Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Electric Walker",
+    "description": "Powers Redstone for a brief moment when walking over it",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Magma Walker, Summer Walker, Grass Walker, Crop Dance, Frost Walker, Depth Strider",
+    "lootSources": "Traded Books, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Hiding",
+    "description": "Hit entities turn invisible",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear",
+    "applicableText": "Sword Spear",
+    "incompatibilities": "-",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Reach",
+    "description": "Reduces block/entity interaction range",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"hoe\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe<img alt=\"pickaxe\" src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe<img alt=\"shovel\" src=\"./items/shovel.png\" width=\"32px\"/> Shovel<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"flint_steel\" src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img alt=\"shears\" src=\"./items/shears.png\" width=\"32px\"/> Shears<img alt=\"brush\" src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe Hoe Pickaxe Shovel Sword Spear Flint and Steel Shears Brush",
+    "incompatibilities": "Crab Claw",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Fragility",
+    "description": "Drains more durability points",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Axe Sword Spear Mace Trident",
+    "incompatibilities": "-",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Welfare",
+    "description": "Destroys items in a 3 block radius",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"hoe\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe<img alt=\"pickaxe\" src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe<img alt=\"shovel\" src=\"./items/shovel.png\" width=\"32px\"/> Shovel<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"flint_steel\" src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img alt=\"shears\" src=\"./items/shears.png\" width=\"32px\"/> Shears<img alt=\"brush\" src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe Hoe Pickaxe Shovel Sword Spear Flint and Steel Shears Brush",
+    "incompatibilities": "Gluttony",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Randomness",
+    "description": "Rerolls weapon enchantments on each hit",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"hoe\" src=\"./items/hoe.png\" width=\"32px\"/> Hoe<img alt=\"pickaxe\" src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe<img alt=\"shovel\" src=\"./items/shovel.png\" width=\"32px\"/> Shovel<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"flint_steel\" src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img alt=\"shears\" src=\"./items/shears.png\" width=\"32px\"/> Shears<img alt=\"brush\" src=\"./items/brush.png\" width=\"32px\"/> Brush<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace<img alt=\"trident\" src=\"./items/trident.png\" width=\"32px\"/> Trident",
+    "applicableText": "Axe Hoe Pickaxe Shovel Sword Spear Flint and Steel Shears Brush Mace Trident",
+    "incompatibilities": "-",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Death",
+    "description": "Small chance of dying when attacking",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear",
+    "applicableText": "Sword Spear",
+    "incompatibilities": "-",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Breeze",
+    "description": "Wind charges entity on attack",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear",
+    "applicableText": "Sword Spear",
+    "incompatibilities": "-",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Curse of Crank",
+    "description": "Hurts the wearer when not moving",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "-",
+    "lootSources": "Mob Equipment, Random Loot, Treasure",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Sting",
+    "description": "Summons an angry Bee when an entity is hit",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Crossbow",
+    "incompatibilities": "Infinity, Bomber, Ender Shot, Forge Shot, Evokers Wrath, Lightning Bolt, Implosion, Flare",
+    "lootSources": "Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Lightning Bolt",
+    "description": "Has a chance to summon lightning upon hit entities when they can see the sky",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/bow.png\" width=\"32px\"/> Bow <img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Bow Crossbow",
+    "incompatibilities": "Infinity, Bomber, Ender Shot, Forge Shot, Evokers Wrath, Sting, Implosion, Flare",
+    "lootSources": "Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Illumination",
+    "description": "Lightens up the area around you when headblock is not obstructed",
+    "maxLevel": "3",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet",
+    "applicableText": "Helmet",
+    "incompatibilities": "Night Vision",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Replenish",
+    "description": "50% Chance to not consume an arrow, tipped arrow, spectral arrow or firework when shot",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/bow.png\" width=\"32px\"/> Bow <img alt=\"Crossbow\" src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow",
+    "applicableText": "Bow Crossbow",
+    "incompatibilities": "Infinity",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
+    "name": "Atlantic Shot",
+    "description": "Shoots 5 Tridents in the direction the caster is looking",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Decoy",
+    "description": "Summons a Decoy that aggros hostile entities within a 24 block radius",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Breeze Shot",
+    "description": "Shoots 5 Wind Charges in the direction the caster is looking",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Cold Bloom",
+    "description": "Turns the area around the caster into a cold landscape",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Crimson Bloom",
+    "description": "Turns the area around the caster into a crimson landscape",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Dry Bloom",
+    "description": "Turns the area around the caster into a dry landscape",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Dry Heat",
+    "description": "Dries up any Wet Sponges in the caster's inventory",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Ender Lure",
+    "description": "Teleports the nearest hostile entity within a 24 block radius around the caster to the location the scroll was thrown at",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Flying Nimbus",
+    "description": "Lets the caster ride on a Wind Charge that flies in the direction the caster is looking",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Frostbite",
+    "description": "Freezes nearby hostile entities within a 24 block radius around the caster in place for a moment",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Ghastly Shot",
+    "description": "Shoots 5 Fireballs in the direction the caster is looking",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Heavy Shot",
+    "description": "Shoots 3 explosive Heavy Cores in the direction the caster is looking",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Lumos",
+    "description": "Temporarly lightens up the area around the caster",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Lupine Echo",
+    "description": "Summons 2 temporary Wolves that are hostile towards the nearest hostile entity within a 24 block radius around the caster",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Pale Bloom",
+    "description": "Turns the area around the caster into a pale landscape",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Rocky Bloom",
+    "description": "Turns the area around the caster into a rocky landscape",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Scouting Arrows",
+    "description": "Shoots down a Spectral Arrow on up to 20 hostile entities within a 24 block radius around the caster",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Sculky Bloom",
+    "description": "Turns the area around the caster into a sculky landscape",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Stonepiercer",
+    "description": "Summons a carpet of falling Dripstone over the nearest hostile entity within a 24 block radius around the caster",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Stormcall",
+    "description": "Strikes hostile entities within a 24 block radius around the caster with lightning",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Thousand Stings",
+    "description": "Summons a swarm of Bees hostile towards the nearest hostile entity within a 24 block radius around the caster",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Toothburst",
+    "description": "Summons waves of Evoker Fangs at the nearest hostile entity within a 24 block radius around the caster",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Verdant Bloom",
+    "description": "Turns the area around the caster into a verdant landscape",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Void Bloom",
+    "description": "Turns the area around the caster into a void landscape",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Void Shot",
+    "description": "Shoots 5 Shulker Bullets in the direction the caster is looking",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Warped Bloom",
+    "description": "Turns the area around the caster into a warped landscape",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Webbing",
+    "description": "Traps up to 10 hostile entities within a 24 block radius around the caster in Cobwebs",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Lurkers Leap",
+    "description": "Teleports the caster to the nearest hostile entity within a 24 block radius around the caster",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/scroll.png\" width=\"32px\"/> Scroll",
+    "applicableText": "Scroll",
+    "incompatibilities": "Other Scroll Enchantments",
+    "lootSources": "Enchanting Table, Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Stronger Together",
+    "description": "All players of the same race receive a Strength effect when equipped. Drains Experience Levels",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/crown_of_roots.png\" width=\"32px\"/> Crown of Roots",
+    "applicableText": "Crown of Roots",
+    "incompatibilities": "-",
+    "lootSources": "Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Feast Together",
+    "description": "All players of the same race receive a Saturation effect when equipped. Drains Experience Levels",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/crown_of_roots.png\" width=\"32px\"/> Crown of Roots",
+    "applicableText": "Crown of Roots",
+    "incompatibilities": "-",
+    "lootSources": "Random Loot",
+    "dataPack": {
+      "name": "Fabled Roots",
+      "url": "https://modrinth.com/datapack/fabled-roots"
+    }
+  },
+  {
+    "name": "Blunt",
+    "description": "Increases damage against armor",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe",
+    "applicableText": "Sword Spear Axe",
+    "incompatibilities": "Sharpness, Bane of Arthropods, Smite, Bane of Bosses, Bane of Netherborn, Bane of Raiders",
+    "lootSources": "Bookshelves in Overworld of Katters Structures",
+    "dataPack": {
+      "name": "Katters Structures",
+      "url": "https://modrinth.com/datapack/katters-structures"
+    }
+  },
+  {
+    "name": "Heavy",
+    "description": "Increases damage but lowers attack speed and agility",
+    "maxLevel": "5",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Axe Sword Spear Mace",
+    "incompatibilities": "Leech, Poppy Peace, Swift Slash, Levitation Aspect, Wind Aspect",
+    "lootSources": "Bookshelves in Overworld of Katters Structures",
+    "dataPack": {
+      "name": "Katters Structures",
+      "url": "https://modrinth.com/datapack/katters-structures"
+    }
+  },
+  {
+    "name": "Light",
+    "description": "Increases agility but lowers defense",
+    "maxLevel": "2",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "Blast Protection",
+    "lootSources": "Bookshelves in Overworld of Katters Structures",
+    "dataPack": {
+      "name": "Katters Structures",
+      "url": "https://modrinth.com/datapack/katters-structures"
+    }
+  },
+  {
+    "name": "Curse of Crystal",
+    "description": "Greatly increases damage at the cost of robustness of the weapon",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
+    "applicableText": "Axe Sword Spear Mace",
+    "incompatibilities": "Unbreaking, Mending, Handyman, Sacrifice",
+    "lootSources": "Bookshelves in Overworld of Katters Structures",
+    "dataPack": {
+      "name": "Katters Structures",
+      "url": "https://modrinth.com/datapack/katters-structures"
+    }
+  },
+  {
+    "name": "Curse of Alchemy",
+    "description": "Grants random effects",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "-",
+    "lootSources": "Bookshelves in Deep Blue of Katters Structures",
+    "dataPack": {
+      "name": "Katters Structures",
+      "url": "https://modrinth.com/datapack/katters-structures"
+    }
+  },
+  {
+    "name": "Ocean Heart",
+    "description": "Grants Conduit Power in water",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Fire Alloy, Ice Alloy",
+    "lootSources": "Bookshelves in Deep Blue of Katters Structures",
+    "dataPack": {
+      "name": "Katters Structures",
+      "url": "https://modrinth.com/datapack/katters-structures"
+    }
+  },
+  {
+    "name": "Web Walker",
+    "description": "Allows to walk faster in Cobwebs and gives Weaving Aspect",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Boots",
+    "incompatibilities": "Depth Strider, Soul Speed, End Speed, Path Speed, Sand Speed, Sonic",
+    "lootSources": "Arachne Boss Drop (Katters Structures)",
+    "dataPack": {
+      "name": "Katters Structures",
+      "url": "https://modrinth.com/datapack/katters-structures"
+    }
+  },
+  {
+    "name": "Enlightning",
+    "description": "Summons Lightning on Ligtning Rods",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"blaze_rod\" src=\"./items/blaze_rod.png\" width=\"32px\"/> Blaze Rod",
+    "applicableText": "Blaze Rod",
+    "incompatibilities": "-",
+    "lootSources": "Only on pre enchanted Items, Raj Lightning Rod, Enlightning Rod",
+    "dataPack": {
+      "name": "Katters Structures",
+      "url": "https://modrinth.com/datapack/katters-structures"
+    }
+  },
+  {
+    "name": "Gravehold",
+    "description": "Items/Graves dropped on death will stay there for double the time before they disappear",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Deathlock, Safekeep",
+    "lootSources": "Enchanting Table, Random Loot, Traded Books, Treasure",
+    "dataPack": {
+      "name": "Nice Keep Inventory",
+      "url": "https://modrinth.com/datapack/nice-keep-inventory"
+    }
+  },
+  {
+    "name": "Deathlock",
+    "description": "Items lost/Graves created on death can only be obtained by one self",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableText": "Chestplate",
+    "incompatibilities": "Gravehold, Safekeep",
+    "lootSources": "Enchanting Table, Random Loot, Traded Books, Treasure",
+    "dataPack": {
+      "name": "Nice Keep Inventory",
+      "url": "https://modrinth.com/datapack/nice-keep-inventory"
+    }
+  },
+  {
+    "name": "Safekeep",
+    "description": "Keep all items on death at the cost of 33% item durability",
+    "maxLevel": "1",
+    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet Chestplate Leggings Boots",
+    "incompatibilities": "Gravehold, Deathlock, Mending, Sacrifice, Handyman",
+    "lootSources": "Enchanting Table, Random Loot, Traded Books, Treasure",
+    "dataPack": {
+      "name": "Nice Keep Inventory",
+      "url": "https://modrinth.com/datapack/nice-keep-inventory"
+    }
+  }
+]
