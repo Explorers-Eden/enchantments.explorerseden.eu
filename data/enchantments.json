@@ -1742,19 +1742,6 @@
     }
   },
   {
-    "name": "Feast Together",
-    "description": "All players of the same race receive a Saturation effect when equipped. Drains Experience Levels",
-    "maxLevel": "1",
-    "applicableHtml": "<img src=\"./items/crown_of_roots.png\" width=\"32px\"/> Crown of Roots",
-    "applicableText": "Crown of Roots",
-    "incompatibilities": "-",
-    "lootSources": "Random Loot",
-    "dataPack": {
-      "name": "Fabled Roots",
-      "url": "https://modrinth.com/datapack/fabled-roots"
-    }
-  },
-  {
     "name": "Flying Nimbus",
     "description": "Lets the caster ride on a Wind Charge that flies in the direction the caster is looking",
     "maxLevel": "1",
@@ -1918,19 +1905,6 @@
     "applicableText": "Scroll",
     "incompatibilities": "Other Scroll Enchantments",
     "lootSources": "Enchanting Table, Random Loot",
-    "dataPack": {
-      "name": "Fabled Roots",
-      "url": "https://modrinth.com/datapack/fabled-roots"
-    }
-  },
-  {
-    "name": "Stronger Together",
-    "description": "All players of the same race receive a Strength effect when equipped. Drains Experience Levels",
-    "maxLevel": "1",
-    "applicableHtml": "<img src=\"./items/crown_of_roots.png\" width=\"32px\"/> Crown of Roots",
-    "applicableText": "Crown of Roots",
-    "incompatibilities": "-",
-    "lootSources": "Random Loot",
     "dataPack": {
       "name": "Fabled Roots",
       "url": "https://modrinth.com/datapack/fabled-roots"
