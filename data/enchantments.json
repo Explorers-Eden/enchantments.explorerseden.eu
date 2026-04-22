@@ -1,18 +1,5 @@
 [
   {
-    "name": "Anchor",
-    "description": "Anchors the entity in place when not ridden",
-    "maxLevel": "1",
-    "applicableHtml": "<img src=\"./items/saddle.png\" width=\"32px\"/> Saddle <img src=\"./items/harness.png\" width=\"32px\"/> Harness",
-    "applicableText": "Saddle, Harness",
-    "incompatibilities": "-",
-    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
-    "dataPack": {
-      "name": "Enchantments Encore",
-      "url": "https://modrinth.com/datapack/enchantments-encore"
-    }
-  },
-  {
     "name": "Anchor Testing",
     "description": "Anchors the entity in place when not ridden",
     "maxLevel": "1",
@@ -1226,19 +1213,6 @@
     "description": "Increases luck attribute",
     "maxLevel": "5",
     "applicableHtml": "<img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Boots",
-    "incompatibilities": "-",
-    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
-    "dataPack": {
-      "name": "Enchantments Encore",
-      "url": "https://modrinth.com/datapack/enchantments-encore"
-    }
-  },
-  {
-    "name": "Rabbit's Foot",
-    "description": "Increases luck attribute",
-    "maxLevel": "5",
-    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
     "applicableText": "Boots",
     "incompatibilities": "-",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
