@@ -3,8 +3,8 @@
     "name": "Anchor",
     "description": "Anchors the entity in place when not ridden",
     "maxLevel": "1",
-    "applicableHtml": "Saddles Harnesses",
-    "applicableText": "Saddles Harnesses",
+    "applicableHtml": "<img src=\"./items/saddle.png\" width=\"32px\"/> Saddle <img src=\"./items/harness.png\" width=\"32px\"/> Harness",
+    "applicableText": "Saddle, Harness",
     "incompatibilities": "-",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
     "dataPack": {
@@ -43,7 +43,7 @@
     "description": "Inflicts more damage to boss mobs",
     "maxLevel": "5",
     "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace <img src=\"./items/trident.png\" width=\"32px\"/> Trident",
-    "applicableText": "Axe Sword Spear Mace Trident",
+    "applicableText": "Axe, Sword, Spear, Mace, Trident",
     "incompatibilities": "Bane of Netherborn, Bane of Raiders, Bane of Endborn, Swift Slash, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -56,7 +56,7 @@
     "description": "Inflicts more damage to End mobs",
     "maxLevel": "5",
     "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace <img src=\"./items/trident.png\" width=\"32px\"/> Trident",
-    "applicableText": "Axe Sword Spear Mace Trident",
+    "applicableText": "Axe, Sword, Spear, Mace, Trident",
     "incompatibilities": "Bane of Bosses, Bane of Raiders, Bane of Netherborn, Swift Slash, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -69,7 +69,7 @@
     "description": "Inflicts more damage to Nether mobs",
     "maxLevel": "5",
     "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace <img src=\"./items/trident.png\" width=\"32px\"/> Trident",
-    "applicableText": "Axe Sword Spear Mace Trident",
+    "applicableText": "Axe, Sword, Spear, Mace, Trident",
     "incompatibilities": "Bane of Bosses, Bane of Raiders, Bane of Endborn, Swift Slash, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -82,7 +82,7 @@
     "description": "Inflicts more damage to raid mobs",
     "maxLevel": "5",
     "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace <img src=\"./items/trident.png\" width=\"32px\"/> Trident",
-    "applicableText": "Axe Sword Spear Mace Trident",
+    "applicableText": "Axe, Sword, Spear, Mace, Trident",
     "incompatibilities": "Bane of Netherborn, Bane of Bosses, Bane of Endborn, Swift Slash, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -134,7 +134,7 @@
     "description": "Arrows explode when an entity was hit",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow",
-    "applicableText": "Crossbow Bow",
+    "applicableText": "Crossbow, Bow",
     "incompatibilities": "Infinity, Sting, Forge Shot, Ender Shot, Evokers Wrath, Lightning Bolt, Implosion, Flare",
     "lootSources": "Treasure",
     "dataPack": {
@@ -185,8 +185,8 @@
     "name": "Crab Claw",
     "description": "Increases block/entity interaction range",
     "maxLevel": "3",
-    "applicableHtml": "Tools",
-    "applicableText": "Tools",
+    "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/hoe.png\" width=\"32px\"/> Hoe <img src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe <img src=\"./items/shovel.png\" width=\"32px\"/> Shovel <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img src=\"./items/shears.png\" width=\"32px\"/> Shears <img src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe, Hoe, Pickaxe, Shovel, Sword, Spear, Flint and Steel, Shears, Brush",
     "incompatibilities": "Curse of Reach, Gluttony",
     "lootSources": "Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -251,7 +251,7 @@
     "description": "Wind charges entity on attack",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear",
-    "applicableText": "Sword Spear",
+    "applicableText": "Sword, Spear",
     "incompatibilities": "-",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -264,7 +264,7 @@
     "description": "Wearer gets slowed down when leashing entities",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "-",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -277,7 +277,7 @@
     "description": "Hurts the wearer when not moving",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "-",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -290,7 +290,7 @@
     "description": "Small chance of dying when attacking",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear",
-    "applicableText": "Sword Spear",
+    "applicableText": "Sword, Spear",
     "incompatibilities": "-",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -303,7 +303,7 @@
     "description": "Drains more durability points",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/axe.png\" width=\"32px\"/> Axe",
-    "applicableText": "Sword Spear Axe",
+    "applicableText": "Sword, Spear, Axe",
     "incompatibilities": "-",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -316,7 +316,7 @@
     "description": "Hit entities turn invisible",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear",
-    "applicableText": "Sword Spear",
+    "applicableText": "Sword, Spear",
     "incompatibilities": "-",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -329,7 +329,7 @@
     "description": "Wearer takes damage when their pets do",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "-",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -341,8 +341,8 @@
     "name": "Curse of Randomness",
     "description": "Rerolls weapon enchantments on each hit",
     "maxLevel": "1",
-    "applicableHtml": "Tools",
-    "applicableText": "Tools",
+    "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/hoe.png\" width=\"32px\"/> Hoe <img src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe <img src=\"./items/shovel.png\" width=\"32px\"/> Shovel <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img src=\"./items/shears.png\" width=\"32px\"/> Shears <img src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe, Hoe, Pickaxe, Shovel, Sword, Spear, Flint and Steel, Shears, Brush",
     "incompatibilities": "-",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -354,8 +354,8 @@
     "name": "Curse of Reach",
     "description": "Reduces block/entity interaction range",
     "maxLevel": "1",
-    "applicableHtml": "Tools",
-    "applicableText": "Tools",
+    "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/hoe.png\" width=\"32px\"/> Hoe <img src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe <img src=\"./items/shovel.png\" width=\"32px\"/> Shovel <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img src=\"./items/shears.png\" width=\"32px\"/> Shears <img src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe, Hoe, Pickaxe, Shovel, Sword, Spear, Flint and Steel, Shears, Brush",
     "incompatibilities": "Crab Claw",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -367,8 +367,8 @@
     "name": "Curse of Undying",
     "description": "Turns the tool into a Totem of Undying",
     "maxLevel": "1",
-    "applicableHtml": "Tools",
-    "applicableText": "Tools",
+    "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/hoe.png\" width=\"32px\"/> Hoe <img src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe <img src=\"./items/shovel.png\" width=\"32px\"/> Shovel <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img src=\"./items/shears.png\" width=\"32px\"/> Shears <img src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe, Hoe, Pickaxe, Shovel, Sword, Spear, Flint and Steel, Shears, Brush",
     "incompatibilities": "-",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -380,8 +380,8 @@
     "name": "Curse of Welfare",
     "description": "Destroys items in a 3 block radius",
     "maxLevel": "1",
-    "applicableHtml": "Tools",
-    "applicableText": "Tools",
+    "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/hoe.png\" width=\"32px\"/> Hoe <img src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe <img src=\"./items/shovel.png\" width=\"32px\"/> Shovel <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img src=\"./items/shears.png\" width=\"32px\"/> Shears <img src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe, Hoe, Pickaxe, Shovel, Sword, Spear, Flint and Steel, Shears, Brush",
     "incompatibilities": "Gluttony",
     "lootSources": "Mob Equipment, Random Loot, Treasure",
     "dataPack": {
@@ -420,7 +420,7 @@
     "description": "Twice the damage protection than the vanilla enchant but works only at day time (overworld)",
     "maxLevel": "4",
     "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "Thorns Protection, Night Protection, Nether Protection, End Protection, Protection, Fire Protection, Blast Protection, Projectile Protection, Wither Protection",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment",
     "dataPack": {
@@ -472,7 +472,7 @@
     "description": "Twice the damage protection than the vanilla enchant but works only the end",
     "maxLevel": "4",
     "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "Thorns Protection, Night Protection, Nether Protection, Day Protection, Protection, Fire Protection, Blast Protection, Projectile Protection, Wither Protection",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment",
     "dataPack": {
@@ -511,7 +511,7 @@
     "description": "Teleports hit entities on the surface randomly",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow",
-    "applicableText": "Crossbow Bow",
+    "applicableText": "Crossbow, Bow",
     "incompatibilities": "Infinity, Bomber, Sting, Forge Shot, Evokers Wrath, Lightning Bolt, Implosion, Flare",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -589,7 +589,7 @@
     "description": "Arrows explode like fireworks when they land or hit an entity",
     "maxLevel": "5",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow",
-    "applicableText": "Crossbow Bow",
+    "applicableText": "Crossbow, Bow",
     "incompatibilities": "Infinity, Bomber, Sting, Forge Shot, Ender Shot, Evokers Wrath, Lightning Bolt",
     "lootSources": "Enchanting Table, Treasure",
     "dataPack": {
@@ -602,7 +602,7 @@
     "description": "Arrows spawn falling Anvils when they land",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow",
-    "applicableText": "Crossbow Bow",
+    "applicableText": "Crossbow, Bow",
     "incompatibilities": "Quick Charge, Infinity, Sting, Lightning Bolt, Evokers Wrath, Ender Shot, Implosion, Flare",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -614,8 +614,8 @@
     "name": "Gallop",
     "description": "The equipped mob gets a speed boost when ridden",
     "maxLevel": "3",
-    "applicableHtml": "Saddles",
-    "applicableText": "Saddles",
+    "applicableHtml": "<img src=\"./items/saddle.png\" width=\"32px\"/> Saddle",
+    "applicableText": "Saddle",
     "incompatibilities": "-",
     "lootSources": "Random Loot, Traded Books",
     "dataPack": {
@@ -640,8 +640,8 @@
     "name": "Gluttony",
     "description": "Sucks up items in a 2-10 block radius depending on the level",
     "maxLevel": "5",
-    "applicableHtml": "Tools",
-    "applicableText": "Tools",
+    "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/hoe.png\" width=\"32px\"/> Hoe <img src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe <img src=\"./items/shovel.png\" width=\"32px\"/> Shovel <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img src=\"./items/shears.png\" width=\"32px\"/> Shears <img src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe, Hoe, Pickaxe, Shovel, Sword, Spear, Flint and Steel, Shears, Brush",
     "incompatibilities": "Crab Claw, Curse of Welfare",
     "lootSources": "Enchanting Table, Treasure",
     "dataPack": {
@@ -667,7 +667,7 @@
     "description": "Increases wearers scale and step height",
     "maxLevel": "5",
     "applicableHtml": "<img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate Elytras <img src=\"./items/horse_armor.png\" width=\"32px\"/> Horse Armor <img src=\"./items/wolf_armor.png\" width=\"32px\"/> Wolf Armor",
-    "applicableText": "Chestplate Elytras Horse Armor Wolf Armor",
+    "applicableText": "Chestplate, Elytras, Horse Armor, Wolf Armor",
     "incompatibilities": "Shrinkage",
     "lootSources": "Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -680,7 +680,7 @@
     "description": "Allows for blocking melee attacks with the enchanted item",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Axe Mace",
+    "applicableText": "Sword, Axe, Mace",
     "incompatibilities": "Sharpness, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -718,8 +718,8 @@
     "name": "Haste",
     "description": "Applies Haste effect when in mainhand equipped",
     "maxLevel": "3",
-    "applicableHtml": "Tools",
-    "applicableText": "Tools",
+    "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/hoe.png\" width=\"32px\"/> Hoe <img src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe <img src=\"./items/shovel.png\" width=\"32px\"/> Shovel <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img src=\"./items/shears.png\" width=\"32px\"/> Shears <img src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe, Hoe, Pickaxe, Shovel, Sword, Spear, Flint and Steel, Shears, Brush",
     "incompatibilities": "Fortune",
     "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -758,7 +758,7 @@
     "description": "Applies hunger effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -797,7 +797,7 @@
     "description": "Pulls in hostile entities within a 5 block radius",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow",
-    "applicableText": "Crossbow Bow",
+    "applicableText": "Crossbow, Bow",
     "incompatibilities": "Infinity, Bomber, Ender Shot, Forge Shot, Evokers Wrath, Lightning Bolt, Flare, Sting",
     "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -810,7 +810,7 @@
     "description": "Applies infested effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -849,7 +849,7 @@
     "description": "Regenerate health when hitting entities",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/trident.png\" width=\"32px\"/> Trident <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Axe Trident Mace",
+    "applicableText": "Sword, Spear, Axe, Trident, Mace",
     "incompatibilities": "-",
     "lootSources": "Enchanting Table, Treasure",
     "dataPack": {
@@ -862,7 +862,7 @@
     "description": "Applies levitation effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier, Heavy",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -875,7 +875,7 @@
     "description": "Has a chance to summon lightning upon hit entities when they can see the sky",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow",
-    "applicableText": "Crossbow Bow",
+    "applicableText": "Crossbow, Bow",
     "incompatibilities": "Infinity, Bomber, Ender Shot, Forge Shot, Evokers Wrath, Sting, Implosion, Flare",
     "lootSources": "Traded Equipment, Traded Books",
     "dataPack": {
@@ -888,7 +888,7 @@
     "description": "Leaves behind a lingering cloud with the effect of the shot tipped arrow when hitting a block",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow",
-    "applicableText": "Crossbow Bow",
+    "applicableText": "Crossbow, Bow",
     "incompatibilities": "-",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -940,7 +940,7 @@
     "description": "Reduces gravity when equipped",
     "maxLevel": "3",
     "applicableHtml": "Elytras <img src=\"./items/horse_armor.png\" width=\"32px\"/> Horse Armor",
-    "applicableText": "Elytras Horse Armor",
+    "applicableText": "Elytras, Horse Armor",
     "incompatibilities": "-",
     "lootSources": "Traded Books, Treasure",
     "dataPack": {
@@ -966,7 +966,7 @@
     "description": "Twice the damage protection than the vanilla enchant but works only at night time (overworld)",
     "maxLevel": "4",
     "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "Thorns Protection, Day Protection, Nether Protection, End Protection, Protection, Fire Protection, Blast Protection, Projectile Protection, Wither Protection",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment",
     "dataPack": {
@@ -979,7 +979,7 @@
     "description": "Twice the damage protection than the vanilla enchant but works only at night time (overworld)",
     "maxLevel": "4",
     "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "Thorns Protection, Day Protection, Nether Protection, End Protection, Protection, Fire Protection, Blast Protection, Projectile Protection, Wither Protection",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment",
     "dataPack": {
@@ -1044,7 +1044,7 @@
     "description": "Applies oozing effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1057,7 +1057,7 @@
     "description": "Has a chance to make hit entities harmless for a short period",
     "maxLevel": "3",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment",
     "lootSources": "Enchanting Table, Treasure, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1109,7 +1109,7 @@
     "description": "Increases Damage against Phantoms",
     "maxLevel": "5",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow",
-    "applicableText": "Crossbow Bow",
+    "applicableText": "Crossbow, Bow",
     "incompatibilities": "-",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1135,7 +1135,7 @@
     "description": "Indicates that an entity has been hit by playing a ping sound",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow <img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/trident.png\" width=\"32px\"/> Trident <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Crossbow Bow Axe Sword Spear Trident Mace",
+    "applicableText": "Crossbow, Bow, Axe, Sword, Spear, Trident, Mace",
     "incompatibilities": "-",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
     "dataPack": {
@@ -1161,7 +1161,7 @@
     "description": "Applies poison effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1174,7 +1174,7 @@
     "description": "Hit Iron Golems don't get angry towards you",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/trident.png\" width=\"32px\"/> Trident <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Axe Sword Spear Trident Mace",
+    "applicableText": "Axe, Sword, Spear, Trident, Mace",
     "incompatibilities": "Pickpocket, Heavy",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
     "dataPack": {
@@ -1186,8 +1186,8 @@
     "name": "Propeller",
     "description": "Increases flying speed of Happy Ghasts",
     "maxLevel": "5",
-    "applicableHtml": "Harnesses",
-    "applicableText": "Harnesses",
+    "applicableHtml": "<img src=\"./items/harness.png\" width=\"32px\"/> Harness",
+    "applicableText": "Harness",
     "incompatibilities": "-",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
     "dataPack": {
@@ -1265,7 +1265,7 @@
     "description": "50% Chance to not consume an arrow, tipped arrow, spectral arrow or firework when shot",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/crossbow.png\" width=\"32px\"/> Crossbow <img src=\"./items/bow.png\" width=\"32px\"/> Bow",
-    "applicableText": "Crossbow Bow",
+    "applicableText": "Crossbow, Bow",
     "incompatibilities": "Infinity",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1329,8 +1329,8 @@
     "name": "Scholar of Blocks",
     "description": "More experience from mining blocks",
     "maxLevel": "3",
-    "applicableHtml": "Tools",
-    "applicableText": "Tools",
+    "applicableHtml": "<img src=\"./items/axe.png\" width=\"32px\"/> Axe <img src=\"./items/hoe.png\" width=\"32px\"/> Hoe <img src=\"./items/pickaxe.png\" width=\"32px\"/> Pickaxe <img src=\"./items/shovel.png\" width=\"32px\"/> Shovel <img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/flint_and_steel.png\" width=\"32px\"/> Flint and Steel <img src=\"./items/shears.png\" width=\"32px\"/> Shears <img src=\"./items/brush.png\" width=\"32px\"/> Brush",
+    "applicableText": "Axe, Hoe, Pickaxe, Shovel, Sword, Spear, Flint and Steel, Shears, Brush",
     "incompatibilities": "Scholar of Mobs",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1343,7 +1343,7 @@
     "description": "More experience from killing entities",
     "maxLevel": "3",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/axe.png\" width=\"32px\"/> Axe",
-    "applicableText": "Sword Spear Axe",
+    "applicableText": "Sword, Spear, Axe",
     "incompatibilities": "Scholar of Blocks",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1394,8 +1394,8 @@
     "name": "Shrinkage",
     "description": "Decreases player scale and step height",
     "maxLevel": "5",
-    "applicableHtml": "<img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate Elytras <img src=\"./items/horse_armor.png\" width=\"32px\"/> Horse Armor Harnesses",
-    "applicableText": "Chestplate Elytras Horse Armor Harnesses",
+    "applicableHtml": "<img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate Elytras <img src=\"./items/horse_armor.png\" width=\"32px\"/> Horse Armor <img src=\"./items/harness.png\" width=\"32px\"/> Harness",
+    "applicableText": "Chestplate, Elytras, Horse Armor, Harness",
     "incompatibilities": "Growth",
     "lootSources": "Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1421,7 +1421,7 @@
     "description": "Applies slowness effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1511,8 +1511,8 @@
     "name": "Surfer",
     "description": "Increases swimming speed of entities",
     "maxLevel": "3",
-    "applicableHtml": "Saddles",
-    "applicableText": "Saddles",
+    "applicableHtml": "<img src=\"./items/saddle.png\" width=\"32px\"/> Saddle",
+    "applicableText": "Saddle",
     "incompatibilities": "-",
     "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
     "dataPack": {
@@ -1525,7 +1525,7 @@
     "description": "Increases attack speed",
     "maxLevel": "5",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/axe.png\" width=\"32px\"/> Axe",
-    "applicableText": "Sword Spear Axe",
+    "applicableText": "Sword, Spear, Axe",
     "incompatibilities": "Bane of Netherborn, Bane of Raiders, Bane of Bosses, Sharpness, Smite, Bane of Arthropods, Impaling, Density, Breach, Heavy",
     "lootSources": "Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1551,7 +1551,7 @@
     "description": "Protection against Thorns including Sweet Berry Bushes and Cactus",
     "maxLevel": "4",
     "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "Wither Protection, Night Protection, Nether Protection, End Protection, Day Protection, Protection, Fire Protection, Blast Protection, Projectile Protection",
     "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1590,7 +1590,7 @@
     "description": "Applies weakness effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1603,7 +1603,7 @@
     "description": "Applies weaving effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1616,7 +1616,7 @@
     "description": "Applies wind charged effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1629,7 +1629,7 @@
     "description": "Applies wither effect to hit entities",
     "maxLevel": "2",
     "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Sword Spear Mace",
+    "applicableText": "Sword, Spear, Mace",
     "incompatibilities": "Guard, Any Aspect Enchantment, Pacifier",
     "lootSources": "Enchanting Table, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
@@ -1642,7 +1642,7 @@
     "description": "Protection against Wither Effect and Wither Skulls",
     "maxLevel": "4",
     "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "Thorns Protection, Night Protection, Nether Protection, End Protection, Day Protection, Protection, Fire Protection, Blast Protection, Projectile Protection",
     "lootSources": "Treasure, Enchanting Table, Mob Equipment, Random Loot, Traded Equipment, Traded Books",
     "dataPack": {
