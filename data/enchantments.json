@@ -13,6 +13,19 @@
     }
   },
   {
+    "name": "Anchor Testing",
+    "description": "Anchors the entity in place when not ridden",
+    "maxLevel": "1",
+    "applicableHtml": "<img src=\"./items/saddle.png\" width=\"32px\"/> Saddle <img src=\"./items/harness.png\" width=\"32px\"/> Harness",
+    "applicableText": "Saddle, Harness",
+    "incompatibilities": "-",
+    "lootSources": "Enchanting Table, Mob Equipment, Random Loot, Traded Books, Traded Equipment",
+    "dataPack": {
+      "name": "Enchantments Encore",
+      "url": "https://modrinth.com/datapack/enchantments-encore"
+    }
+  },
+  {
     "name": "Angry Aura",
     "description": "Applies a cosmetic angry aura to the wearer, it's pets and most of the projectiles shot",
     "maxLevel": "1",
