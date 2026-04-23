@@ -2003,12 +2003,12 @@
   },
   {
     "name": "Blunt",
-    "description": "Increases damage against armor",
+    "description": "Increases Damage against Armor",
     "maxLevel": "1",
-    "applicableHtml": "<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear <img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe",
-    "applicableText": "Sword Spear Axe",
+    "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/axe.png\" width=\"32px\"/> Axe",
+    "applicableText": "Sword, Spear, Axe",
     "incompatibilities": "Sharpness, Bane of Arthropods, Smite, Bane of Bosses, Bane of Netherborn, Bane of Raiders",
-    "lootSources": "Bookshelves in Overworld of Katters Structures",
+    "lootSources": "Bookshelves in Overworld Dimension",
     "dataPack": {
       "name": "Katters Structures",
       "url": "https://modrinth.com/datapack/katters-structures"
@@ -2016,12 +2016,12 @@
   },
   {
     "name": "Curse of Alchemy",
-    "description": "Grants random effects",
+    "description": "Grants random Effects",
     "maxLevel": "1",
-    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableHtml": "<img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
     "applicableText": "Chestplate",
     "incompatibilities": "-",
-    "lootSources": "Bookshelves in Deep Blue of Katters Structures",
+    "lootSources": "Bookshelves in Deep Blue Dimension",
     "dataPack": {
       "name": "Katters Structures",
       "url": "https://modrinth.com/datapack/katters-structures"
@@ -2029,12 +2029,12 @@
   },
   {
     "name": "Curse of Crystal",
-    "description": "Greatly increases damage at the cost of robustness of the weapon",
+    "description": "Greatly increases Damage at the cost of robustness of the Weapon",
     "maxLevel": "1",
-    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Axe Sword Spear Mace",
+    "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/axe.png\" width=\"32px\"/> Axe",
+    "applicableText": "Sword, Spear, Axe",
     "incompatibilities": "Unbreaking, Mending, Handyman, Sacrifice",
-    "lootSources": "Bookshelves in Overworld of Katters Structures",
+    "lootSources": "Bookshelves in Overworld Dimension",
     "dataPack": {
       "name": "Katters Structures",
       "url": "https://modrinth.com/datapack/katters-structures"
@@ -2042,9 +2042,9 @@
   },
   {
     "name": "Enlightning",
-    "description": "Summons Lightning on Ligtning Rods",
+    "description": "Summons Lightning when hitting a Lightning Rod",
     "maxLevel": "1",
-    "applicableHtml": "<img alt=\"blaze_rod\" src=\"./items/blaze_rod.png\" width=\"32px\"/> Blaze Rod",
+    "applicableHtml": "<img src=\"./items/blaze_rod.png\" width=\"32px\"/> Blaze Rod",
     "applicableText": "Blaze Rod",
     "incompatibilities": "-",
     "lootSources": "Only on pre enchanted Items, Raj Lightning Rod, Enlightning Rod",
@@ -2055,12 +2055,12 @@
   },
   {
     "name": "Heavy",
-    "description": "Increases damage but lowers attack speed and agility",
+    "description": "Increases Damage but lowers Attackspeed and Agility",
     "maxLevel": "5",
-    "applicableHtml": "<img alt=\"axe\" src=\"./items/axe.png\" width=\"32px\"/> Axe<img alt=\"sword\" src=\"./items/sword.png\" width=\"32px\"/> Sword <img alt=\"spear\" src=\"./items/spear.png\" width=\"32px\"/> Spear<img alt=\"mace\" src=\"./items/mace.png\" width=\"32px\"/> Mace",
-    "applicableText": "Axe Sword Spear Mace",
+    "applicableHtml": "<img src=\"./items/sword.png\" width=\"32px\"/> Sword <img src=\"./items/spear.png\" width=\"32px\"/> Spear <img src=\"./items/axe.png\" width=\"32px\"/> Axe",
+    "applicableText": "Sword, Spear, Axe",
     "incompatibilities": "Leech, Poppy Peace, Swift Slash, Levitation Aspect, Wind Aspect",
-    "lootSources": "Bookshelves in Overworld of Katters Structures",
+    "lootSources": "Bookshelves in Overworld Dimension",
     "dataPack": {
       "name": "Katters Structures",
       "url": "https://modrinth.com/datapack/katters-structures"
@@ -2068,12 +2068,12 @@
   },
   {
     "name": "Light",
-    "description": "Increases agility but lowers defense",
+    "description": "Increases Agility but lowers Defense",
     "maxLevel": "2",
-    "applicableHtml": "<img alt=\"helmet\" src=\"./items/helmet.png\" width=\"32px\"/> Helmet<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img alt=\"leggings\" src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
-    "applicableText": "Helmet Chestplate Leggings Boots",
+    "applicableHtml": "<img src=\"./items/helmet.png\" width=\"32px\"/> Helmet <img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate <img src=\"./items/leggings.png\" width=\"32px\"/> Leggings <img src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableText": "Helmet, Chestplate, Leggings, Boots",
     "incompatibilities": "Blast Protection",
-    "lootSources": "Bookshelves in Overworld of Katters Structures",
+    "lootSources": "Bookshelves in Overworld Dimension",
     "dataPack": {
       "name": "Katters Structures",
       "url": "https://modrinth.com/datapack/katters-structures"
@@ -2081,25 +2081,25 @@
   },
   {
     "name": "Ocean Heart",
-    "description": "Grants Conduit Power in water",
+    "description": "Grants Conduit Power, in Water",
     "maxLevel": "1",
-    "applicableHtml": "<img alt=\"chestplate\" src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
+    "applicableHtml": "<img src=\"./items/chestplate.png\" width=\"32px\"/> Chestplate",
     "applicableText": "Chestplate",
     "incompatibilities": "Fire Alloy, Ice Alloy",
-    "lootSources": "Bookshelves in Deep Blue of Katters Structures",
+    "lootSources": "Bookshelves in Deep Blue Dimension",
     "dataPack": {
       "name": "Katters Structures",
       "url": "https://modrinth.com/datapack/katters-structures"
     }
   },
   {
-    "name": "Web Walker",
-    "description": "Allows to walk faster in Cobwebs and gives Weaving Aspect",
+    "name": "Web walker",
+    "description": "Allows to faster walk in Cobwebs and gives Weaving Aspect",
     "maxLevel": "1",
-    "applicableHtml": "<img alt=\"boots\" src=\"./items/boots.png\" width=\"32px\"/> Boots",
+    "applicableHtml": "<img src=\"./items/boots.png\" width=\"32px\"/> Boots",
     "applicableText": "Boots",
     "incompatibilities": "Depth Strider, Soul Speed, End Speed, Path Speed, Sand Speed, Sonic",
-    "lootSources": "Arachne Boss Drop (Katters Structures)",
+    "lootSources": "Arachne Boss Drop",
     "dataPack": {
       "name": "Katters Structures",
       "url": "https://modrinth.com/datapack/katters-structures"
