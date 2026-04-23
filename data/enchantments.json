@@ -1,6 +1,6 @@
 [
   {
-    "name": "Anchor Testing",
+    "name": "Anchor",
     "description": "Anchors the entity in place when not ridden",
     "maxLevel": "1",
     "applicableHtml": "<img src=\"./items/saddle.png\" width=\"32px\"/> Saddle <img src=\"./items/harness.png\" width=\"32px\"/> Harness",
