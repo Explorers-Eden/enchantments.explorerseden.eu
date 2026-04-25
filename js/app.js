@@ -1,3 +1,35 @@
+const backgrounds = [
+  'assets/images/backgrounds/1.png',
+  'assets/images/backgrounds/2.png',
+  'assets/images/backgrounds/3.jpg',
+  'assets/images/backgrounds/4.jpg'
+];
+
+const lockedPalette = {
+  bg: '#0b1018',
+  accent: '#b6c8ff',
+  accent2: '#ffd18b',
+  cardA: 'rgba(10, 12, 22, .62)',
+  cardB: 'rgba(3, 5, 10, .70)',
+  glass: 'rgba(5, 7, 13, .48)'
+};
+
+function applyPalette(palette) {
+  const root = document.documentElement;
+  root.style.setProperty('--bg', palette.bg);
+  root.style.setProperty('--accent', palette.accent);
+  root.style.setProperty('--accent-2', palette.accent2);
+  root.style.setProperty('--card-a', palette.cardA);
+  root.style.setProperty('--card-b', palette.cardB);
+  root.style.setProperty('--glass', palette.glass);
+}
+
+const siteBg = document.querySelector('.site-bg');
+if (siteBg) {
+  siteBg.style.backgroundImage = `url('${backgrounds[Math.floor(Math.random() * backgrounds.length)]}')`;
+  applyPalette(lockedPalette);
+}
+
 
 const state = {
   enchantments: [],
